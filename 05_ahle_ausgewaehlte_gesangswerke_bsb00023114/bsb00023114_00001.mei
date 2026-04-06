@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <meiHead xml:id="mryzoz1">
+      <fileDesc xml:id="f3bwc5h">
+         <titleStmt xml:id="t1hheqou">
+            <title />
+            <respStmt />
+         </titleStmt>
+         <pubStmt xml:id="p1kj8o5n">
+            <date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="elgkdoz">
+         <appInfo xml:id="a1igerhz">
+            <application xml:id="axr7bo7" isodate="2025-08-29T17:40:47" version="5.5.0-e003172">
+               <name xml:id="njgv95">Verovio</name>
+               <p xml:id="puc6ze9">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="c1n9qtl0">
+            <score xml:id="d1hxz2yr">
+               <scoreDef xml:id="eohpbkb">
+                  <staffGrp xml:id="g19gy062">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="480" trans.diat="-7" trans.semi="-12">
+                        <label xml:id="h10ez0bq">Nylon Guitar</label>
+                        <labelAbbr xml:id="js0vgj3">GuitNyl</labelAbbr>
+                        <instrDef xml:id="lknvebm" midi.channel="0" midi.instrnum="24" midi.volume="77%" />
+                        <clef xml:id="u18dilti" shape="G" line="2" />
+                        <keySig xml:id="vjfdad6" sig="0" />
+                        <meterSig xml:id="wt8mok0" count="4" unit="4" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="f1scv0am">
+                  <measure xml:id="x1qttezl" n="1">
+                     <staff xml:id="gtjg4wo" n="1">
+                        <layer xml:id="hrrf34c" n="1">
+                           <tuplet xml:id="id8yrbs" num="9" numbase="4" bracket.visible="true">
+                              <rest xml:id="jx0kchc" dur.ppq="427" dur="2" />
+                           </tuplet>
+                           <space xml:id="qrrvory" dots="1" dur.ppq="1493" dur="2" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="koyqxwz" place="above" staff="1" tstamp="1.8896" val="90" vgrp="704">f</dynam>
+                     <dynam xml:id="m1cuhnv7" place="above" staff="1" tstamp="1.8896" val="90" vgrp="704">f</dynam>
+                     <dynam xml:id="oebdife" place="above" staff="1" tstamp="1.8896" val="90" vgrp="704">f</dynam>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
