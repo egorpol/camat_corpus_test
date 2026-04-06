@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <meiHead xml:id="ml15p1q">
+      <fileDesc xml:id="f1lnyl14">
+         <titleStmt xml:id="t1naz7hj">
+            <title />
+            <respStmt />
+         </titleStmt>
+         <pubStmt xml:id="p2p5ajo">
+            <date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e1c0ithv">
+         <appInfo xml:id="a17ao2ah">
+            <application xml:id="a4kolz6" isodate="2025-08-29T17:43:10" version="5.5.0-e003172">
+               <name xml:id="n11y24xq">Verovio</name>
+               <p xml:id="pdt48ri">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="i6doou">
+            <score xml:id="j18ee9fk">
+               <scoreDef xml:id="k1fl4jta">
+                  <staffGrp xml:id="n12zm95k">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="1" trans.diat="-7" trans.semi="-12">
+                        <label xml:id="o1yyyxxo">Nylon Guitar</label>
+                        <labelAbbr xml:id="q1mefof1">GuitNyl</labelAbbr>
+                        <instrDef xml:id="sh6a50m" midi.channel="0" midi.instrnum="24" midi.volume="77%" />
+                        <clef xml:id="bka5cw9" shape="G" line="2" />
+                        <keySig xml:id="c1e36243" sig="0" />
+                        <meterSig xml:id="du6seuh" count="4" unit="4" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="lggcnfz">
+                  <pb xml:id="mpen75h" />
+                  <measure xml:id="e1h7sa7c" n="1">
+                     <staff xml:id="nmscpxq" n="1">
+                        <layer xml:id="q1kx2dcl" n="1">
+                           <chord xml:id="s1rmh9me" dur.ppq="1" dur="4" stem.dir="up">
+                              <note xml:id="rktz42y" oct="4" pname="e" />
+                              <note xml:id="t12h9wba" oct="4" pname="g" />
+                              <note xml:id="u12qq0z4" oct="4" pname="b" />
+                              <note xml:id="v16fq6uc" oct="5" pname="g" />
+                           </chord>
+                           <space xml:id="y1fbulex" dots="1" dur.ppq="3" dur="2" />
+                           <clef xml:id="k1enu0mh" shape="G" line="2" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="o1vgipig" place="below" staff="1" tstamp="1" val="90" vgrp="793">f</dynam>
+                     <dynam xml:id="we3jate" place="above" staff="1" tstamp="2" val="90" vgrp="704">f</dynam>
+                  </measure>
+                  <sb xml:id="j20p2r0" />
+                  <measure xml:id="z18w0rjq" n="2">
+                     <staff xml:id="ixh4orw" n="1">
+                        <layer xml:id="l1atnum2" n="1">
+                           <rest xml:id="m1p49yp5" dur.ppq="1" dur="4" />
+                           <space xml:id="n15b15tp" dots="1" dur.ppq="3" dur="2" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

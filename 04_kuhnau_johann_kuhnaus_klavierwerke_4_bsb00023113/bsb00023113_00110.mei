@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <meiHead xml:id="mkx0inx">
+      <fileDesc xml:id="fv4zeju">
+         <titleStmt xml:id="tfsfhn1">
+            <title />
+            <respStmt />
+         </titleStmt>
+         <pubStmt xml:id="pyl6jpm">
+            <date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="ekcfetl">
+         <appInfo xml:id="a7vz87">
+            <application xml:id="a1xhxcro" isodate="2025-08-29T17:42:41" version="5.5.0-e003172">
+               <name xml:id="nu7r2bk">Verovio</name>
+               <p xml:id="p1hpltfr">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="k1czddkd">
+            <score xml:id="l1ekoggq">
+               <scoreDef xml:id="m1jz8z8j">
+                  <staffGrp xml:id="p11xek6l">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="1" trans.diat="-7" trans.semi="-12">
+                        <label xml:id="q1qfxsqv">Nylon Guitar</label>
+                        <labelAbbr xml:id="ssndyiw">GuitNyl</labelAbbr>
+                        <instrDef xml:id="ukcr5pz" midi.channel="0" midi.volume="78%" />
+                        <clef xml:id="d19ums9g" shape="G" line="2" />
+                        <keySig xml:id="e1lg7j3d" sig="0" />
+                        <meterSig xml:id="fzp2gfw" count="4" unit="4" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="n1srkvoq">
+                  <pb xml:id="o1o9zbzs" />
+                  <measure xml:id="guo5fxe" n="1">
+                     <staff xml:id="p1r738re" n="1">
+                        <layer xml:id="sg2zhn5" n="1">
+                           <mSpace xml:id="uhh8zvg" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="qyx9zo6" place="above" staff="1" tstamp="1" val="90" vgrp="704">f</dynam>
+                  </measure>
+                  <sb xml:id="f8kw12c" />
+                  <measure xml:id="vlie9ku" n="2">
+                     <staff xml:id="e121vot0" n="1">
+                        <layer xml:id="g1yeowpr" n="1">
+                           <mSpace xml:id="i1vlwyg3" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb xml:id="t1pkusqy" />
+                  <measure xml:id="j71umee" n="3">
+                     <staff xml:id="syjs6qp" n="1">
+                        <layer xml:id="w11xmg5n" n="1">
+                           <mSpace xml:id="yoja7wm" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="u1eqswsg" place="above" staff="1" tstamp="1" val="90" vgrp="704">f</dynam>
+                  </measure>
+                  <sb xml:id="jgq486c" />
+                  <measure xml:id="zwi290q" n="4">
+                     <staff xml:id="i12ueu1o" n="1">
+                        <layer xml:id="m12x6k2c" n="1">
+                           <mSpace xml:id="o12hd7bw" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="k1eb3irg" place="below" staff="1" tstamp="1" val="90" vgrp="793">f</dynam>
+                  </measure>
+                  <sb xml:id="z1f7osv6" />
+                  <measure xml:id="p1503rv9" n="5">
+                     <staff xml:id="y140nmtn" n="1">
+                        <layer xml:id="ahab7ub" n="1">
+                           <mSpace xml:id="ctydbit" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
