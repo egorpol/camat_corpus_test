@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <meiHead xml:id="m1qoop0u">
+      <fileDesc xml:id="f1tgyw98">
+         <titleStmt xml:id="t1kkexcn">
+            <title />
+            <respStmt />
+         </titleStmt>
+         <pubStmt xml:id="p191dbj5">
+            <date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="ej9xbbj">
+         <appInfo xml:id="au2mj2j">
+            <application xml:id="a1t1i0ks" isodate="2025-08-29T17:53:31" version="5.5.0-e003172">
+               <name xml:id="n1ojga6i">Verovio</name>
+               <p xml:id="p44agic">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="v1tjaw65">
+            <score xml:id="w1j1ndg0">
+               <scoreDef xml:id="x1jsnat2">
+                  <staffGrp xml:id="z1spy09r">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="1" trans.diat="-7" trans.semi="-12">
+                        <label xml:id="a1u6kcrr">Nylon Guitar</label>
+                        <labelAbbr xml:id="ci3t8p5">GuitNyl</labelAbbr>
+                        <instrDef xml:id="egv5582" midi.channel="0" midi.instrnum="24" midi.volume="77%" />
+                        <clef xml:id="n1so11nu" shape="G" line="2" />
+                        <keySig xml:id="o1e65ln1" sig="0" />
+                        <meterSig xml:id="p9q4apl" count="4" unit="4" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="ygodz19">
+                  <measure xml:id="q1em7pba" metcon="false" n="1">
+                     <staff xml:id="z1fd3u9s" n="1">
+                        <layer xml:id="a5r90a" n="1">
+                           <rest xml:id="bigqg47" dur.ppq="1" dur="4" />
+                           <rest xml:id="c1n6ou00" dur.ppq="1" dur="4" />
+                           <space xml:id="dlyc17m" dur.ppq="2" dur="2" />
+                        </layer>
+                        <layer xml:id="epttjos" n="2">
+                           <space xml:id="gx2qu7k" dur.ppq="1" dur="4" />
+                           <rest xml:id="f17hfyg" dur.ppq="1" dur="4" />
+                           <space xml:id="h7dmti4" dur.ppq="2" dur="2" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
