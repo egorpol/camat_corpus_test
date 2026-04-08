@@ -2,10 +2,8 @@
 Cleanup script for CAMAT corpus folders.
 
 Rules applied to each target folder:
-  1. Delete all .log and .json files
-  2. Delete all *_measure_annotations.xml files
-  3. Delete plain .mei file if a corresponding _facs.mei exists
-  4. Delete the img/ subfolder entirely
+  - Delete everything except files whose stem ends in _facs_zones
+  - Also delete the img/ subfolder entirely
 
 Usage:
   python cleanup.py                  # dry run on all numbered folders in repo root
@@ -30,14 +28,8 @@ def collect_deletions(folder: Path) -> list[Path]:
         if not f.is_file():
             continue
 
-        if f.suffix in (".log", ".json"):
+        if not f.stem.endswith("_facs_zones"):
             to_delete.append(f)
-        elif f.name.endswith("_measure_annotations.xml"):
-            to_delete.append(f)
-        elif f.suffix == ".mei" and not f.stem.endswith("_facs"):
-            facs = f.with_name(f.stem + "_facs.mei")
-            if facs.exists():
-                to_delete.append(f)
 
     return to_delete
 
